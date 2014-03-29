@@ -62,17 +62,6 @@ $(function(){
 			s = randomLength(10,2);
 
 			for (var j=0; j< s; j++){
-				// var last = s-1;
-				// switch (true){
-				// 	case j===last:
-				// 		sentence.push( randomPhrase(dipsum) + '.');
-				// 		break;
-				// 	case j===0:
-				// 		sentence.push( capitaliseFirstLetter( randomPhrase(dipsum) ) + ',' );
-				// 		break;
-				// 	default:
-				// 		sentence.push( randomPhrase(dipsum) + ',' );
-				// }
 				var r = randomPhrase(dipsum);
 				r = j===0 ? capitaliseFirstLetter(r) : r;
 				r = j===s-1 ? r+'.' : r+',';
