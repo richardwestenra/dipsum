@@ -1,7 +1,7 @@
 dipsum
 ======
 
-Distilled lorem ipsum generator likes it's 2012.
+Distilled lorem ipsum generator like it's 2012.
 
 The list of phrases used is at the top of the main JavaScript file, here: https://github.com/richardwestenra/dipsum/blob/master/app/scripts/main.js
 
